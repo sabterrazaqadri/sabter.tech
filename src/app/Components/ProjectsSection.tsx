@@ -58,13 +58,14 @@ const projects = [
 export default function ProjectsSection() {
   return (
     <motion.section
+    id="projects"
       className="py-12"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-    >
-      <h2 className="text-2xl font-bold mb-6 text-center">Featured Projects</h2>
+      >
+      <h2 className="text-2xl font-bold mb-6 text-center" >Featured Projects</h2>
 
       <div className="grid md:grid-cols-3 gap-6">
         {projects.map((project) => (

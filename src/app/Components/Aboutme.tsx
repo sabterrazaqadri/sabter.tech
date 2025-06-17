@@ -7,13 +7,14 @@ import Image from "next/image";
 export default function AboutMeSection() {
   return (
     <motion.section
+    id="about"
       className="flex flex-col md:flex-row items-center gap-8 py-12"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
     >
-      <div className="flex-shrink-0">
+      <div className="flex-shrink-0 " >
         <Avatar className="w-28 h-28 border-2 border-primary">
           <Image src="/img1.jpg" alt="About Sabter" width={112} height={112} />
           <AvatarFallback>SI</AvatarFallback>

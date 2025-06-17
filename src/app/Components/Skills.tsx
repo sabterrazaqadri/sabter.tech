@@ -21,13 +21,14 @@ const skills = [
 export default function SkillsSection() {
   return (
     <motion.section
+    id="skills"
       className="py-12"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
     >
-      <h3 className="text-2xl font-semibold mb-6 text-center">Skills</h3>
+      <h3 className="text-2xl font-semibold mb-6 text-center" >Skills</h3>
       <TooltipProvider>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 max-w-3xl mx-auto">
           {skills.map((skill) => (
