@@ -21,7 +21,7 @@ export default function Navbar() {
     <header className="w-full sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <Link href="/" className="text-xl font-bold text-primary">
-          Sabter.Tech
+          SabterTech
         </Link>
 
         {/* Desktop Menu */}
