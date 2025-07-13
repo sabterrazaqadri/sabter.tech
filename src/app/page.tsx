@@ -8,7 +8,7 @@ import ContactSection from "./Components/Contact";
 
 export default function Homepage(){
   return(
-  <div className="container mx-auto px-4">
+  <div>
   <HeroSection/>
   <AboutMeSection/>   
   <SkillsSection/>
