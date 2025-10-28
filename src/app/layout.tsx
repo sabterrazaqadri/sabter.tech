@@ -56,13 +56,6 @@ export default function RootLayout({
         <Navbar />
         {children}
 
-        {/* ✅ Google AdSense Script */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7846074061736370"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
