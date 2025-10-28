@@ -10,8 +10,12 @@ import ContactSection from "./Components/Contact";
 
 export default function Homepage() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-between">
+    <div>
       <HeroSection />
+      <AboutMeSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
 
       {/* ✅ Adsterra Ad Script */}
       <Script
@@ -38,10 +42,6 @@ export default function Homepage() {
       {/* Ad container */}
       <div id="container-3c1dc3109d1c1cf94cd1a3204ef488c7" className="my-6" />
 
-      <AboutMeSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
     </div>
   );
 }
