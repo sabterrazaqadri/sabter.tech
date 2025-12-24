@@ -13,7 +13,7 @@ const projects = [
       "AI-based app for Islamic question answering using OpenAI SDK and Gemini API. Available on Android.",
     tech: ["OpenAI SDK", "Gemini API", "Chainlit"],
     github: "https://github.com/sabterrazaqadri/Digital-Mufti",
-    demo: "https://digital-mufti.onrender.com/",
+    demo: "https://digitalmufti.vercel.app/",
     category: "AI/ML",
     stars: 45,
     views: 1200,
@@ -30,15 +30,15 @@ const projects = [
     views: 2100,
   },
   {
-    title: "Banquet Booking App",
+    title: "AI Docusaurus Textbook With AI RAG Chatbot",
     description:
-      "Custom app to manage banquet bookings with date-wise event logs, customer payments, and monthly profit/loss reports.",
-    tech: ["Next.js", "Tailwind", "TypeScript"],
-    github: "https://github.com/sabterrazaqadri/Banquet-Booking-App",
-    demo: "https://banquet-booking-app.vercel.app/",
-    category: "Business",
-    stars: 32,
-    views: 890,
+      "A comprehensive digital textbook on Physical AI Humanoids, featuring an AI-powered RAG chatbot for interactive learning.",
+    tech: ["Docusaurus", "Chatkit", "RAG", "AI"],
+    github: "https://github.com/sabterrazaqadri/GIAIC-Q4-Hackathons/tree/main/Step-1-physical-ai-humanoid-textbook/docusaurus",
+    demo: "https://physical-ai-humanoid-textbook-mu.vercel.app/",
+    category: "AI/ML",
+    stars: 87,
+    views: 1900
   },
   {
     title: "Naat Collection With Admin Panel",
@@ -63,7 +63,40 @@ const projects = [
     views: 750,
   },
   {
-    title: "Trump Intl: AI Crypto Trading App",
+    title: "UAE Gaming PC Store",
+    description:
+      "E-commerce site for gaming PCs in UAE with real-time inventory, product filtering, and secure checkout.",
+    tech: ["Next.js", "Node.js", "NeonDB", "Tailwind"],
+    github: "https://github.com/sabterrazaqadri/Gaming-PC-Store",
+    demo: "https://gaming-pc-store.vercel.app/",
+    category: "Gaming",
+    stars: 99,
+    views: 3900,
+  },
+  {
+    title: "Golden Orchard : Perfume E-commerce Store",
+    description:
+      "E-commerce platform for luxury perfumes with real-time inventory, user reviews, and secure payment gateway integration.",
+    tech: ["Next.js", "Node.js", "Whatsapp API", "Tailwind"],
+    github: "https://github.com/sabterrazaqadri/Golden-Orchard-Perfumes",
+    demo: "https://www.goldenorchard.co/",
+    category: "Perfumes",
+    stars: 97,
+    views: 4689,
+  },
+  {
+    title: "MakeAPP-AI : AI Website Generator",
+    description:
+      "AI-powered website generator using Claude Code and OpenAI API to create custom websites based on user input.",
+    tech: ["Claude Code", "OpenAI API", "AI", "MongoDB"],
+    github: "https://github.com/sabterrazaqadri/MakeAPP-AI",
+    demo: "https://makeappai.vercel.app/",
+    category: "AI Website Generator",
+    stars: 100,
+    views: 7868,
+  },
+  {
+    title: "Trump Intl : AI Crypto Trading App",
     description:
       "Advanced crypto trading platform with TBC coin, AI-powered auto-trading on top 10 coins, investment plans, and real-time Binance APIs.",
     tech: ["Next.js", "Binance API", "AI", "Tailwind"],
@@ -73,6 +106,7 @@ const projects = [
     stars: 95,
     views: 3200,
   },
+  
 ];
 
 const categories = ["All", "AI/ML", "E-commerce", "Business", "Content", "Utility", "Finance"];

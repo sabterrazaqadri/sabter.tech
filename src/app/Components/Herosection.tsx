@@ -121,7 +121,7 @@ export default function HeroSection() {
                 className="group hover-lift animated-gradient text-white border-0"
                 asChild
               >
-                <a href="/SabterIqbal_Resume.pdf" download>
+                <a href="/Sabter_Iqbal_Resume.pdf" download>
                   <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                   Download Resume
                 </a>

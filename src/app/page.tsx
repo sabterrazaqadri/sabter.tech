@@ -5,6 +5,7 @@ import SkillsSection from "./Components/Skills";
 import ProjectsSection from "./Components/ProjectsSection";
 import { Contact } from "lucide-react";
 import ContactSection from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 export default function Homepage(){
   return(
@@ -14,6 +15,7 @@ export default function Homepage(){
   <SkillsSection/>
   <ProjectsSection/>
   <ContactSection/>
+  <Footer/>
   </div>
   )
 }

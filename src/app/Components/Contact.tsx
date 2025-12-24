@@ -222,7 +222,7 @@ export default function ContactSection() {
                 className="group hover-lift"
                 asChild
               >
-                <a href="/SabterIqbal_Resume.pdf" download>
+                <a href="/Sabter_Iqbal_Resume.pdf" download>
                   <Mail className="mr-2 h-5 w-5 group-hover:animate-bounce" />
                   Download Resume
                 </a>
